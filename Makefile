@@ -1,4 +1,5 @@
 # This makefile does nothing but delegating the actual building to cmake.
+# See CMakeLists.txt for the main build configuration.
 
 SHELL        = /bin/bash
 .SHELLFLAGS := -eu -o pipefail -c
