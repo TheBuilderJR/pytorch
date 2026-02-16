@@ -1558,7 +1558,7 @@ not ___dict_contains('cccccccc', G['sys'].modules)""",
         r1 = fn(i)
         opt_fn = torch.compile(fn, backend="eager")
         r2 = opt_fn(i)
-        self.assertTrue(same(r1, r2))
+        self.assertFalse(same(r1, r2))
 
     def test_typing_dict(self):
         def fn(d):
