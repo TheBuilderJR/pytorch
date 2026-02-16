@@ -26,7 +26,8 @@
 
 ## ATen
 Short for "A Tensor Library". The foundational tensor and mathematical
-operation library on which all else is built.
+operation library on which all else is built. ATen provides the core
+tensor operations used throughout PyTorch.
 
 ## Operation
 A unit of work. For example, the work of matrix multiplication is an operation
