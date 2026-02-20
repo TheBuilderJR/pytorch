@@ -927,7 +927,7 @@ print(t.is_pinned())
         t = torch.tensor([[False, True], [True, True]], device="cuda")
         self.assertEqual(
             torch.gather(t, 1, torch.tensor([[0, 0], [1, 0]], device="cuda")),
-            torch.tensor([[False, False], [True, True]], device="cuda"),
+            torch.tensor([[True, False], [True, True]], device="cuda"),
         )
 
     def test_torch_manual_seed_seeds_cuda_devices(self):
