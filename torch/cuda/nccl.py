@@ -6,7 +6,13 @@ from collections.abc import Sequence
 import torch.cuda
 
 
-__all__ = ["all_reduce", "reduce", "broadcast", "all_gather", "reduce_scatter"]
+__all__ = [
+    "all_reduce",
+    "reduce",
+    "broadcast",
+    "all_gather",
+    "reduce_scatter",
+]
 
 SUM = 0  # ncclRedOp_t
 
