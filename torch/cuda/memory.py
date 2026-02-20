@@ -1,5 +1,8 @@
 # mypy: allow-untyped-defs
-r"""This package adds support for device memory management implemented in CUDA."""
+r"""This package adds support for device memory management implemented in CUDA.
+
+See :ref:`cuda-memory-management` for more details on memory management.
+"""
 
 import collections
 import contextlib
